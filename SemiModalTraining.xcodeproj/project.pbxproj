@@ -14,6 +14,11 @@
 		CE5D6AE2230653EC00110B7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5D6AE0230653EC00110B7D /* LaunchScreen.storyboard */; };
 		CE5D6AED230653EC00110B7D /* SemiModalTrainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D6AEC230653EC00110B7D /* SemiModalTrainingTests.swift */; };
 		CE5D6AF8230653EC00110B7D /* SemiModalTrainingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D6AF7230653EC00110B7D /* SemiModalTrainingUITests.swift */; };
+		CE5D6B0623066C8600110B7D /* DismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D6B0523066C8600110B7D /* DismissAnimator.swift */; };
+		CE5D6B0823066D8500110B7D /* ModalPresentationCOntroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D6B0723066D8500110B7D /* ModalPresentationCOntroller.swift */; };
+		CE5D6B0A23066EA500110B7D /* OverCurrentTransionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D6B0923066EA500110B7D /* OverCurrentTransionable.swift */; };
+		CE5D6B0C2306756200110B7D /* SemiModalViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5D6B0B2306756200110B7D /* SemiModalViewController.storyboard */; };
+		CE5D6B0E230675B600110B7D /* SemiModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D6B0D230675B600110B7D /* SemiModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		CE5D6AF3230653EC00110B7D /* SemiModalTrainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SemiModalTrainingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5D6AF7230653EC00110B7D /* SemiModalTrainingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiModalTrainingUITests.swift; sourceTree = "<group>"; };
 		CE5D6AF9230653EC00110B7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5D6B0523066C8600110B7D /* DismissAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissAnimator.swift; sourceTree = "<group>"; };
+		CE5D6B0723066D8500110B7D /* ModalPresentationCOntroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPresentationCOntroller.swift; sourceTree = "<group>"; };
+		CE5D6B0923066EA500110B7D /* OverCurrentTransionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverCurrentTransionable.swift; sourceTree = "<group>"; };
+		CE5D6B0B2306756200110B7D /* SemiModalViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SemiModalViewController.storyboard; sourceTree = "<group>"; };
+		CE5D6B0D230675B600110B7D /* SemiModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				CE5D6ADE230653EC00110B7D /* Assets.xcassets */,
 				CE5D6AE0230653EC00110B7D /* LaunchScreen.storyboard */,
 				CE5D6AE3230653EC00110B7D /* Info.plist */,
+				CE5D6B0523066C8600110B7D /* DismissAnimator.swift */,
+				CE5D6B0723066D8500110B7D /* ModalPresentationCOntroller.swift */,
+				CE5D6B0923066EA500110B7D /* OverCurrentTransionable.swift */,
+				CE5D6B0B2306756200110B7D /* SemiModalViewController.storyboard */,
+				CE5D6B0D230675B600110B7D /* SemiModalViewController.swift */,
 			);
 			path = SemiModalTraining;
 			sourceTree = "<group>";
@@ -232,6 +247,7 @@
 				CE5D6AE2230653EC00110B7D /* LaunchScreen.storyboard in Resources */,
 				CE5D6ADF230653EC00110B7D /* Assets.xcassets in Resources */,
 				CE5D6ADD230653EB00110B7D /* Main.storyboard in Resources */,
+				CE5D6B0C2306756200110B7D /* SemiModalViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5D6B0E230675B600110B7D /* SemiModalViewController.swift in Sources */,
 				CE5D6ADA230653EB00110B7D /* ViewController.swift in Sources */,
+				CE5D6B0A23066EA500110B7D /* OverCurrentTransionable.swift in Sources */,
+				CE5D6B0623066C8600110B7D /* DismissAnimator.swift in Sources */,
 				CE5D6AD8230653EB00110B7D /* AppDelegate.swift in Sources */,
+				CE5D6B0823066D8500110B7D /* ModalPresentationCOntroller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
